@@ -1,0 +1,13 @@
+splits:
+  protocol:
+    module_path: "github.com/jdbaldry/go-language-server-protocol"
+    url: "git@github.com:jdbaldry/go-language-server-protocol"
+    includes:
+      - "internal/event"
+      - "internal/jsonrpc2"
+      - "internal/jsonrpc2_v2"
+      - "internal/lsp/debug/tag"
+      - "internal/lsp/protocol"
+      - "internal/span"
+      - "internal/stack"
+      - "internal/xcontext"
